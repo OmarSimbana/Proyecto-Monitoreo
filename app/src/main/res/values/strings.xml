@@ -1,0 +1,18 @@
+<resources>
+    <string name="title_monitor">Monitor Remoto</string>
+    <string name="last_location">Última ubicación</string>
+    <string name="latitude_label">Latitud: -</string>
+    <string name="longitude_label">Longitud: -</string>
+    <string name="last_update_label">Última actualización: -</string>
+
+    <string name="device_status">Estado del Dispositivo</string>
+    <string name="battery_label">🔋 Batería: -</string>
+    <string name="network_label">📶 Red: -</string>
+    <string name="storage_label">💾 Almacenamiento: -</string>
+
+    <string name="ip_label">IP local: -</string>
+    <string name="token_label">Token de acceso: -</string>
+
+    <string name="start_monitoring">INICIAR MONITOREO</string>
+    <string name="stop_monitoring">DETENER</string>
+</resources>

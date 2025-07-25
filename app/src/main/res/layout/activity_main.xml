@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> 73a1ac4e2a2c0491ddf61732de0b301912e88ee5
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+<<<<<<< HEAD
+            android:text="Monitoreo"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" />
+=======
+            android:id="@+id/tvStatus"
+            android:text="Estado: Recolección detenida"
+            android:textSize="18sp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+>>>>>>> 73a1ac4e2a2c0491ddf61732de0b301912e88ee5
+
+        <Button
+            android:id="@+id/btnToggle"
+            android:text="Iniciar monitoreo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp" />
+
+<<<<<<< HEAD
+        <TextView android:id="@+id/tvCoordinates"
+            android:text="Coordenadas: -"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView android:id="@+id/tvLastUpdate"
+            android:text="Última actualización: -"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView android:id="@+id/tvIpAddress"
+            android:text="IP Local: -"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView android:id="@+id/tvBattery"
+            android:text="Batería: -"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView android:id="@+id/tvNetwork"
+            android:text="Conectividad: -"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView android:id="@+id/tvStorage"
+            android:text="Almacenamiento libre: -"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView android:id="@+id/tvOsVersion"
+            android:text="Versión Android: -"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView android:id="@+id/tvModel"
+            android:text="Modelo del dispositivo: -"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+=======
+        <TextView
+            android:id="@+id/tvIpAddress"
+            android:text="IP Local: -"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvBattery"
+            android:text="Batería: -"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvNetwork"
+            android:text="Conectividad: -"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvStorage"
+            android:text="Almacenamiento libre: -"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvOsVersion"
+            android:text="Versión Android: -"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvModel"
+            android:text="Modelo del dispositivo: -"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+>>>>>>> 73a1ac4e2a2c0491ddf61732de0b301912e88ee5
+    </LinearLayout>
+</ScrollView>
